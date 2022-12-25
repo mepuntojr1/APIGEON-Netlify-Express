@@ -4,14 +4,14 @@ const http = require('http');
 
 /* your app config here */
 
-app.post('/api/BLABLA', (oreq, ores) => {
+app.post('/spam-checker/v1', (oreq, ores) => {
   const options = {
     // host to forward to
-    host: 'www.google.com',
+    host: 'https://apigeon-prod1.c1-asia-se.altogic.com',
     // port to forward to
     port: 80,
     // path to forward to
-    path: '/api/BLABLA',
+    path: '/spam-checker/v1',
     // request method
     method: 'POST',
     // headers to send
